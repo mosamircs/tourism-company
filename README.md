@@ -1,3 +1,9 @@
+![alt text](https://github.com/mosamircs/tourism-company/blob/master/reserve-room-hotel.png)
+![alt text](https://github.com/mosamircs/tourism-company/blob/master/reserve-ticket-flight.png)
+![alt text](https://github.com/mosamircs/tourism-company/blob/master/tourism_agency.drawio%20(1).png)
+![alt text](https://github.com/mosamircs/tourism-company/blob/master/add-supplier.png)
+![alt text](https://github.com/mosamircs/tourism-company/blob/master/flights.png)
+![alt text](https://github.com/mosamircs/tourism-company/blob/master/hotels.png)
 ![alt text](https://github.com/mosamircs/tourism-agency/blob/master/tourism_agency.drawio%20(1).png)
 Tourism system: [scenario]
 	can give customers 3 services for reservations from 3 suppliers  
