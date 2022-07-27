@@ -18,24 +18,24 @@ Route::prefix('flights')->group(function () {
     //end of flight service operations
 
 Route::prefix('reservation')->group(function () {
-    
+
     /**
      * start of flight reservation operations
      */
     Route::get('/',[FlightReserveController::class,'index'])->name('flightreserveindex');
-    
+
     Route::get('/create',[FlightReserveController::class,'create'])->name('flightreservecreate');
-    
+
     Route::post('/store',[FlightReserveController::class,'store'])->name('flightreservestore');
-    //end of flight reservation 
-    
+    //end of flight reservation
+
 });
 
     /**
      * route group for flight suppliers
      */
     Route::prefix('supplier')->group(function () {
-        
+
         Route::get('/create',[FlightSupplierController::class,'create'])->name('flightsuppliercreate');
 
         Route::post('/store',[FlightSupplierController::class,'store'])->name('flightsupplierstore');

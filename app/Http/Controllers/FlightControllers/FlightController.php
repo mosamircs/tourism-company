@@ -44,7 +44,7 @@ class FlightController extends Controller
         Service::create($request->validated());
         return redirect()->back()->with('message','flight added ') ;
     }
-    
+
 
     /**
      * Display the specified resource.

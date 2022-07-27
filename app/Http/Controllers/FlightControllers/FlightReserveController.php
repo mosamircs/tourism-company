@@ -14,7 +14,7 @@ class FlightReserveController extends Controller
      */
     public function index()
     {
-        
+        dd("index flight reservation");
     }
 
     /**
@@ -24,7 +24,8 @@ class FlightReserveController extends Controller
      */
     public function create()
     {
-        return view('flights.reservations');
+        // return view('flights.reservations');
+        dd("hello reservatio");
     }
 
     /**
@@ -35,7 +36,7 @@ class FlightReserveController extends Controller
      */
     public function store(Request $request)
     {
-        
+        dd("store reservation in db");
     }
 
     /**
